@@ -1,13 +1,16 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Function: 
-// Last Modified:  
-// Author:  
+// Function:  timeRequiredToBuy 
+// Last Modified:  April 9th, 2024
+// Author:  Jason A Biddle
 //
-// Purpose:  
+// Purpose: Calculates the time it takes the kth indivual to buy
+//          tickets[k] tickets!
 //
-// In:  
+// In:  tickets - The queue of people and the amount of tickets they're
+//          looking to buy.
+//      k - The person in line that we're watching.
 //
-// Out:
+// Out:  result - The amount of time it took k to by tickets[k] tickets.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int timeRequiredToBuy(vector<int> &tickets, int k)
 {
